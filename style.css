@@ -1,0 +1,148 @@
+/* Common CSS */
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1, h2{
+    font-weight: 900;
+    line-height: 1em;
+}
+h2{
+    color: #502314;
+    font-size: 60px;
+}
+
+h3, h4, h5, h6{
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+h6{
+    color: #502314;
+    font-size: 25px;
+}
+
+p{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+img
+{
+    /* * always make these settings recommended to add*  */
+    max-width: 100%;
+    height: auto; 
+}
+
+
+.btn.btn-info{
+    background-color: #f2783a;
+    border: 1px solid;
+    color: #ffff;
+    border-radius: 25px;
+    padding: 12px 35px;
+}
+
+#mainmenu a.active{
+    color:#f2783a
+}
+
+
+/* Header area style */
+#main_menu .navbar 
+{
+    background: #e6d7be;
+    font-weight: 500;
+}
+   
+#main_menu nav li{
+    margin-left: 15px;
+}
+
+/* padding top for some section */
+
+
+
+/* ====================== */
+/* *Slider area style*/
+/* ====================== */
+#slider{
+    padding-top: 85px;
+}
+
+
+/* ====================== */
+/* *about  area style MIMP for scrolling space to look good*/
+/* ====================== */
+
+#about, #work, #service, #contact {
+    padding-top: 110px;
+}
+
+
+/* ====================== */
+/* *work  area style */
+/* ====================== */
+
+#work{
+    background-color: #e6d7be;
+}
+
+/* ====================== */
+/* *contact area style*/
+/* ====================== */
+#contact{
+    background: url(img/map.jpg);
+}
+
+
+/* ====================== */
+/* *Footer  style*/
+/* ====================== */
+
+#footer form .btn.btn-info{
+    border-radius: 0;
+}
+
+#footer ul li a {
+    color:#262626;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#footer .social li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/* ====================== */
+/* *Responsive  style*/
+/* ====================== */
+
+@media only screen and (max-width:600px){
+    #main_menu img{
+        width: 200px;
+    }
+    #slide{
+        padding-top: 65px;
+    }
+
+    
+    #about, #work, #service, #contact {
+    padding-top: 35px;
+    }
+
+    h2{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+    
+    h6{
+        font-size: 18px;
+    }
+}
